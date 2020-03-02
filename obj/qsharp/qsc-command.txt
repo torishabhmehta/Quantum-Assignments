@@ -1,0 +1,22 @@
+:: files ::
+entangle.qs
+Hgate.qs
+MyApp.qs
+New_Tasks_1.qs
+New_Tasks_2.qs
+New_Tasks_3.qs
+New_Tasks_4.qs
+Tasks_1.qs
+Tasks_2.qs
+Xgate.qs
+:: qsim ::
+:: references ::
+/home/torishabhmehta/.nuget/packages/microsoft.quantum.simulators/0.8.1907.1701/lib/netstandard2.0/Microsoft.Quantum.Intrinsic.dll
+/home/torishabhmehta/.nuget/packages/microsoft.quantum.simulators/0.8.1907.1701/lib/netstandard2.0/Microsoft.Quantum.Simulation.Common.dll
+/home/torishabhmehta/.nuget/packages/microsoft.quantum.simulators/0.8.1907.1701/lib/netstandard2.0/Microsoft.Quantum.Simulation.Core.dll
+/home/torishabhmehta/.nuget/packages/microsoft.quantum.simulators/0.8.1907.1701/lib/netstandard2.0/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll
+/home/torishabhmehta/.nuget/packages/microsoft.quantum.simulators/0.8.1907.1701/lib/netstandard2.0/Microsoft.Quantum.Simulators.dll
+/home/torishabhmehta/.nuget/packages/microsoft.quantum.standard/0.8.1907.1701/lib/netstandard2.0/Microsoft.Quantum.Standard.dll
+/usr/share/dotnet/sdk/NuGetFallbackFolder/newtonsoft.json/11.0.2/lib/netstandard2.0/Newtonsoft.Json.dll
+:: command ::
+dotnet "/home/torishabhmehta/.nuget/packages/microsoft.quantum.development.kit/0.8.1907.1701/build/../tools/qsc/Microsoft.Quantum.CsharpGeneration.App.dll"  --input "entangle.qs" "Hgate.qs" "MyApp.qs" "New_Tasks_1.qs" "New_Tasks_2.qs" "New_Tasks_3.qs" "New_Tasks_4.qs" "Tasks_1.qs" "Tasks_2.qs" "Xgate.qs" --references "/home/torishabhmehta/.nuget/packages/microsoft.quantum.simulators/0.8.1907.1701/lib/netstandard2.0/Microsoft.Quantum.Intrinsic.dll" "/home/torishabhmehta/.nuget/packages/microsoft.quantum.simulators/0.8.1907.1701/lib/netstandard2.0/Microsoft.Quantum.Simulation.Common.dll" "/home/torishabhmehta/.nuget/packages/microsoft.quantum.simulators/0.8.1907.1701/lib/netstandard2.0/Microsoft.Quantum.Simulation.Core.dll" "/home/torishabhmehta/.nuget/packages/microsoft.quantum.simulators/0.8.1907.1701/lib/netstandard2.0/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll" "/home/torishabhmehta/.nuget/packages/microsoft.quantum.simulators/0.8.1907.1701/lib/netstandard2.0/Microsoft.Quantum.Simulators.dll" "/home/torishabhmehta/.nuget/packages/microsoft.quantum.standard/0.8.1907.1701/lib/netstandard2.0/Microsoft.Quantum.Standard.dll" "/usr/share/dotnet/sdk/NuGetFallbackFolder/newtonsoft.json/11.0.2/lib/netstandard2.0/Newtonsoft.Json.dll" --output obj/qsharp/src/
